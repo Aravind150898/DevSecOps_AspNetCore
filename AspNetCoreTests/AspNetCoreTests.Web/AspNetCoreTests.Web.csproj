@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <NoWarn>$(NoWarn);1699</NoWarn>
+    <CollectCoverage>true</CollectCoverage>
+    <CoverletOutput>$(OutputPath)\coverage.cobertura.xml</CoverletOutput
   </PropertyGroup>
 
   <ItemGroup>
