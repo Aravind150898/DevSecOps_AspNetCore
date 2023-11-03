@@ -1,0 +1,9 @@
+name: First Workflow
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  first-job:
+    runs-on:
